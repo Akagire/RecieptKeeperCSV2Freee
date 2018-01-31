@@ -1,3 +1,4 @@
+#for python3
 import pandas as pd
 import numpy as np
 import math
@@ -79,9 +80,6 @@ def transrec(dt, chg):
         "",
         str(int(chg))
     ]], columns = transHead)
-
-
-
 
 c = 1
 for i, v in tlog.iterrows():
