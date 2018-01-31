@@ -107,3 +107,5 @@ if len(df.index) > 1:
 
 if len(tf.index) > 1:
     tf.to_csv("振替.csv", index = False, encoding = "shift_jis")
+
+print "hoge"
